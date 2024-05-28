@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #584e43;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    height: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    left: -450%;
+}
+
+nav ul li .dropdown-content a {
+    color: #007bff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li a.dropbtn {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+header h4 {
+    margin: 0;
+    font-weight: 800;
+}
+
+.secondary-navbar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0px;
+}
+
+.secondary-navbar .logo img {
+    height: 50px;
+    width: 170px;
+}
+
+.secondary-navbar .search-box {
+    margin-left: auto;
+}
+
+.secondary-navbar .search-box input[type="text"] {
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 600px;
+    height: 30px;
+}
+
+.secondary-navbar .additional-content a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+/* menu-bar */
+.menu-bar {
+    background-color: #007bff;
+    /* Background color of the menu bar */
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar li {
+    display: inline;
+}
+
+.menu-bar li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* banner */
+.banner1 {
+    background-color: #f0f0f0;
+    margin-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Background color of the section */
+}
+
+.full-size-image img {
+    width: 100%;
+    display: block;
+    /* Ensure the image fills the container */
+}
+
+/* Additional CSS for the header-section and full-size-image-section */
+.header-section {
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header-section header {
+    position: relative;
+    z-index: 2;
+}
+
+/* banner section styles */
+.banner1 {
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .secondary-navbar .search-box input[type="text"] {
+        width: 300px;
+    }
+}
