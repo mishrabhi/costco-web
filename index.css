@@ -135,6 +135,19 @@ header h4 {
     /* Ensure the image fills the container */
 }
 
+.full-size-image h2 {
+    text-align: center;
+    color: #387569;
+    background-color: #F7EFE0;
+    padding-top: 10px;
+}
+
+.full-size-image h5 {
+    text-align: center;
+    color: #387569;
+    padding-bottom: 10px;
+}
+
 /* Additional CSS for the header-section and full-size-image-section */
 .header-section {
     margin-bottom: 20px;
@@ -150,6 +163,98 @@ header h4 {
 .banner1 {
     position: relative;
     z-index: 1;
+}
+
+/* banner2 */
+.banner2 {
+    background-color: #f0f0f0;
+    /* Background color of the section */
+    padding: 20px;
+    /* Add padding as needed */
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    /* Adjust the gap between images */
+}
+
+.image-container img {
+    width: calc(50% - 10px);
+    /* Calculate width for two images with gap */
+    max-width: 100%;
+    /* Ensure images don't exceed their container */
+}
+
+/* banner3 */
+.banner3 {
+    background-color: #F7EFE0;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Background color of the section */
+}
+
+.banner5 {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Background color of the section */
+}
+
+/* scrollable-images */
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll-container img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    /* Adjust the spacing between images */
+    animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* image-card */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 22%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-description {
+    padding: 10px;
+    background-color: #f8f8f8;
 }
 
 /* Responsive styles */
