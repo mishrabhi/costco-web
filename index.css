@@ -189,18 +189,17 @@ header h4 {
 /* banner3 */
 .banner3 {
     background-color: #F7EFE0;
-    padding-left: 20px;
-    padding-right: 20px;
     /* Background color of the section */
+    padding: 20px;
+
 }
 
 .banner5 {
     background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     /* Background color of the section */
+    width: 100%;
+    padding: 20px;
+
 }
 
 /* scrollable-images */
@@ -257,9 +256,218 @@ header h4 {
     background-color: #f8f8f8;
 }
 
+/* image-section */
+.image-section {
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.image-containers {
+    display: inline-block;
+    /* margin: 10px; */
+}
+
+.image-containers img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .secondary-navbar .search-box input[type="text"] {
         width: 300px;
     }
+}
+
+.promo-section {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1px solid
+}
+
+.promo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.costco-direct {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    height: 30px;
+    width: 200px;
+}
+
+.costco-direct span {
+    font-size: 1.5em;
+    font-weight: 750;
+}
+
+.promo-text {
+    max-width: 60%;
+    margin-right: 40px;
+
+}
+
+.promo-text span {
+    font-size: 1.9em;
+    font-weight: bolder
+}
+
+.promo-text p {
+    margin: 5px 0;
+    padding: 20px;
+}
+
+.promo-para h4 {
+    font-size: larger;
+}
+
+.costco-direct-tag {
+    background-color: #d9534f;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Promo  */
+.promo-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.promo-column {
+    width: 23%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.promo-header {
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+.promo-circle {
+    background-color: #004A99;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+    text-align: center;
+    font-size: 1em;
+}
+
+.promo-save {
+    padding-top: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.promo-images img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.bot {
+    background-color: #584e43;
+    text-align: center;
+    width: 100%;
+}
+
+/* new  */
+.banner {
+    background-color: #d9534f;
+    color: #ffd700;
+    text-align: center;
+    padding: 10px;
+}
+
+.promo-sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.promo-columns {
+    width: 30%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.promo-columns .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-columns .images img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+.price span:last-child {
+    display: block;
+    font-size: 0.8em;
+    color: #555;
+}
+
+.validity {
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.brands img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
