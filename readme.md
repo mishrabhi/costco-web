@@ -1,5 +1,3 @@
-# Costco Wholesale
-
 # Costco.com Clone
 
 This project is a clone of the Costco.com website, created using HTML, CSS, and minimal JavaScript. The purpose of this project is to demonstrate proficiency in web development by replicating the design and layout of a well-known e-commerce website.
@@ -26,12 +24,16 @@ This project replicates the layout and design of Costco.com, providing a static 
 
 ### ### Homepage
 
-![Homepage Screenshot](screenshots/Home.png)
+![Homepage](screenshots/Home.png)
 
 ### Product Listing Page
 
-![Product Listing Page Screenshot](screenshots/Product%20Listing.png)
+![Product Listing Page ](screenshots/Product%20Listing.png)
 
 ### User Registration Page
 
-![Product Listing Page Screenshot](screenshots/User%20Registration.png)
+![User Registration](screenshots/User%20Registration.png)
+
+### Footer
+
+![Footer](screenshots/footer.png)
